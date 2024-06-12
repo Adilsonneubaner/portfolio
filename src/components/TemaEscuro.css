@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/*header*/
+.navbar-escuro{
+    background-color: #0a3a61;
+    
+}
+.perfil-escuro{
+    background-image: url(../img/perfil-claro-50px.jpg);
+    
+}
+.link-escuro{
+    color: rgb(0, 0, 0);
+}
+.icones-escuro i{
+    color: #0a3a61;
+}
+/*main*/
+.titulo-escuro{
+    color: #0a3a61;
+}
+.paragrafo-escuro{
+    color: #0a3a61;
+}
+.imagem-escuro{
+    background: url(../img/img-2.svg) center center no-repeat;
+    background-size: contain;
+}
+.sub-titulos-escuro{
+    color: #0a3a61;
+}

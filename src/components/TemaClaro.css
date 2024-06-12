@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+:root{
+    --cor-principal: #0C72C4;
+    --cor-segundaria1: #D9D9D9;
+    --cor-segundaria2: #065893;
+}
+/*header*/
+.navbar-claro{
+    background-color: var(--cor-principal);
+    
+}
+.perfil-claro{
+    background-image: url(../img/perfil-claro-50px.jpg);
+    
+}
+.navbar-toggler-claro{
+    border: 2px solid white;
+}
+.navbar-toggler-claro:focus{
+    box-shadow: none;
+}
+.toggler-icon-claro{
+    font-size: 1.5em;
+    color: white;
+}
+.link-claro{
+    color: white;
+    display: inline-block;
+}
+.link-claro:hover{
+    transition: .4s;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.link-claro:focus{
+    color: white;
+}
+.icones-claro i{
+    color: var(--cor-principal);
+}
+/*main*/
+.titulo-claro{
+    color: var(--cor-principal);
+}
+.paragrafo-claro{
+    color: var(--cor-principal);
+}
+.imagem-claro{
+    background: url(../img/img-4.svg) center center no-repeat;
+    background-size: contain;
+}
+.sub-titulos-claro{
+    color: var(--cor-principal);
+    font-size: 2.2em;
+    text-decoration: underline;
+}
+.skills-claro{
+    background-color:  #065893;
+}
+.titulo-projeto-claro{
+    color: var(--cor-segundaria2);
+    
+}
+.botoes-claro button{
+    background-color: var(--cor-principal);
+    color: white;
+    border: 2px solid white;
+    font-weight: 500;
+    font-size: 1.1em;
+    width: 130px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 15px;
+    transition: .3s;
+}
+.botoes-claro button:hover{
+    background-color: #3ea3fc;
+    color: white;
+    border-color: white;
+    width: 140px;
+    padding: 15px;
+}
+/*footer*/
+.footer-claro{
+    background-color: var(--cor-principal);
+    color: white;
+}
+.footer-claro a:hover{
+    font-size: 2.4em;
+    color: #05395e;
+}
