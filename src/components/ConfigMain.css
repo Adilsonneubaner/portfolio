@@ -117,4 +117,11 @@ main{
     #titulo{
         font-size: 1.8em;
     }
+    #skills{
+        width: 100px;
+        height: 100px;
+    }
+    #skills p{
+        font-size: 0.9em;
+    }
 }

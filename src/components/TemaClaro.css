@@ -90,3 +90,9 @@
     font-size: 2.4em;
     color: #05395e;
 }
+
+@media screen and (max-width:580px){
+    .sub-titulos-claro{
+        font-size: 1.9em;
+    }
+}
