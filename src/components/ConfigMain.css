@@ -19,8 +19,8 @@ main{
     gap: 30px;
 }
 #paragrafo-sobre-mim{
-    text-align: justify;
-    
+    text-align: start;
+    font-weight: 500;
     width: 50%;
 }
 #imagem-sobre-mim{

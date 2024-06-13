@@ -41,7 +41,7 @@ const Header = ({handlePegarTema}) => {
             </nav>
             <div id='cor-tema'>
                 <div className="form-check form-switch">
-                    <input type="checkbox" name="tema" id='escolher-tema' className='form-check-input' checked={tema} onChange={handleMudarTema}/>
+                <input type="checkbox" name="tema" id='escolher-tema' className={tema === false? "form-check-input" : "form-check-input escolher-tema-escuro"} checked={tema} onChange={handleMudarTema}/>
                 </div>
                 <div id='claro-escuro' className={tema === false? "icones-claro" : "icones-escuro"}>
                     <i className="bi bi-brightness-high-fill tema"></i>

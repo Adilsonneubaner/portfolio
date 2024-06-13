@@ -8,11 +8,11 @@ const Projetos = ({img, site, repositorio, titulo, descricao, temaEscolhido}) =>
   
   return (
     <div>
-        <h3 id='titulo-projeto' className={temaEscolhido === false? "" : "titulo-projeto-claro"}>{titulo}</h3>
+        <h3 id='titulo-projeto' className={temaEscolhido === false? "titulo-projeto-escuro" : "titulo-projeto-claro"}>{titulo}</h3>
         <div id='imagem-projeto' style={{background: `url(${img}) top center`}} onMouseEnter={() => setMostrarConteudo(true)} onMouseLeave={() => setMostrarConteudo(false)}>
             <div id='conteudo-projeto' className={mostrarConteudo === true? "conteudo-visivel" : "conteudo-nao-visivel"}>
                 <p>{descricao}</p>
-                <div className={temaEscolhido === false? "" : "botoes-claro"} id='botoes'>
+                <div className={temaEscolhido === false? "botoes-escuro" : "botoes-claro"} id='botoes'>
                   <a href={site} target='_blank'>
                     <button>Veja o site</button>
                   </a>

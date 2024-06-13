@@ -12,7 +12,7 @@ function App() {
   }
   
   return (
-    <div className={temaEscolhido === false? "" : "corpo-claro"}>
+    <div className={temaEscolhido === false? "corpo-escuro" : "corpo-claro"}>
       <Header handlePegarTema={handlePegarTema}/>
       <Main temaEscolhido={temaEscolhido}/>
       <Footer temaEscolhido={temaEscolhido}/>

@@ -1,13 +1,12 @@
 @charset "UTF-8";
 
 :root{
-    --cor-principal: #0C72C4;
-    --cor-segundaria1: #D9D9D9;
-    --cor-segundaria2: #065893;
+    --cor-principal-claro: #0C72C4;
+    --cor-segundaria: #065893;
 }
 /*header*/
 .navbar-claro{
-    background-color: var(--cor-principal);
+    background-color: var(--cor-principal-claro);
     
 }
 .perfil-claro{
@@ -37,33 +36,33 @@
     color: white;
 }
 .icones-claro i{
-    color: var(--cor-principal);
+    color: var(--cor-principal-claro);
 }
 /*main*/
 .titulo-claro{
-    color: var(--cor-principal);
+    color: var(--cor-principal-claro);
 }
 .paragrafo-claro{
-    color: var(--cor-principal);
+    color: var(--cor-principal-claro);
 }
 .imagem-claro{
-    background: url(../img/img-4.svg) center center no-repeat;
+    background: url(../img/img-1.svg) center center no-repeat;
     background-size: contain;
 }
 .sub-titulos-claro{
-    color: var(--cor-principal);
+    color: var(--cor-principal-claro);
     font-size: 2.2em;
     text-decoration: underline;
 }
 .skills-claro{
-    background-color:  #065893;
+    background-color: var(--cor-segundaria);
 }
 .titulo-projeto-claro{
-    color: var(--cor-segundaria2);
+    color: var(--cor-segundaria);
     
 }
 .botoes-claro button{
-    background-color: var(--cor-principal);
+    background-color: var(--cor-principal-claro);
     color: white;
     border: 2px solid white;
     font-weight: 500;
@@ -76,14 +75,12 @@
 }
 .botoes-claro button:hover{
     background-color: #3ea3fc;
-    color: white;
-    border-color: white;
     width: 140px;
     padding: 15px;
 }
 /*footer*/
 .footer-claro{
-    background-color: var(--cor-principal);
+    background-color: var(--cor-principal-claro);
     color: white;
 }
 .footer-claro a:hover{

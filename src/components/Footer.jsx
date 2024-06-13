@@ -4,7 +4,7 @@ import '../components/TemaEscuro.css'
 
 const Footer = ({temaEscolhido}) => {
   return (
-    <footer className={temaEscolhido === false? "" : "footer-claro"} id='secao-contato' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
+    <footer className={temaEscolhido === false? "footer-escuro" : "footer-claro"} id='secao-contato' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
         <p>Entre em contato</p>
         <div>
             <ul id="contato">
