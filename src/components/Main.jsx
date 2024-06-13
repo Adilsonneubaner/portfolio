@@ -34,7 +34,7 @@ const Main = ({temaEscolhido}) => {
     ]
     //array de objetos sobre meus projetos
     const projetos = [
-        {id: "1", img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Nesse projeto, o usuário jogará um jogo de acertar a palavra tendo 3 tentativas de acertar, caso acerte sua pontuação se aumenta e suas chances são renovadas. Ao perder suas 3 chances ele verá sua pontuação final."}
+        {id: "1", img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar as suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."}
     ]
   return (
     <main>
