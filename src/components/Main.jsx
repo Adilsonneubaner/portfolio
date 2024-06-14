@@ -44,7 +44,7 @@ const Main = ({temaEscolhido}) => {
         </div>
         <div className="container" id='sobre-mim'>
             <div id='paragrafo-sobre-mim' data-bs-target='#navbar' data-bs-offset='0' className={temaEscolhido === false? "paragrafo-sobre-mim-escuro" : ""}>
-                <p>Me chamo Adilson Neubaner, tenho foco em desenvolvimento front-end. Meu trabalho como desenvolvedor é garantir a experiência a cada usuário individualmente, independente de onde e qual dispositivo ele esteja usando, por isso prezo por um desenvolvimento totalmente responsivo e otimizado. Com código organizado, para facilitar manutenção.</p>
+                <p>Me chamo Adilson Neubaner, tenho foco em desenvolvimento front-end. Meu trabalho como desenvolvedor é garantir a experiência a cada usuário individualmente, independente de onde e qual dispositivo ele esteja usando, por isso prezo por um desenvolvimento totalmente responsivo e otimizado, com código organizado para facilitar manutenção.</p>
                 <p>Tenho um pensamento crítico sobre todos os projetos em que trabalho. Com responsabilidade e concentração, busco criar soluções inovadoras e criativas.</p>
             </div>
             <div id='imagem-sobre-mim' className={temaEscolhido === false? "imagem-escuro" : "imagem-claro"}></div> 
