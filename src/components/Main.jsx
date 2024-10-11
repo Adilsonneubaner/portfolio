@@ -9,7 +9,10 @@ import react from '../img/react.svg'
 import git from '../img/git.svg'
 import github from '../img/github.svg'
 import bootstrap from '../img/bootstrap.svg'
+
+// imagens projetos
 import secret_word from '../img/secret-word.png'
+import mountainStore from '../img/mountain-store2.png'
 
 import html_2 from '../img/html-2.svg'
 import css_2 from '../img/css-2.svg'
@@ -34,7 +37,7 @@ const Main = ({temaEscolhido}) => {
     ]
     //array de objetos sobre meus projetos
     const projetos = [
-        {id: "1", img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar as suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."}
+        {id: 1, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar as suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."}
     ]
   return (
     <main>
@@ -62,16 +65,7 @@ const Main = ({temaEscolhido}) => {
         </div>
         <div className="container sub-titulos"id='secao-projetos' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
             <h2 className={temaEscolhido === false? "sub-titulos-escuro" : "sub-titulos-claro"} style={{marginBottom: `100px`}}>Projetos</h2>
-            {projetos.map((projeto) => (
-                <Projetos 
-                key={projeto.id}
-                img={projeto.img}
-                site={projeto.site}
-                repositorio={projeto.repositorio} 
-                titulo={projeto.titulo}
-                descricao={projeto.descricao}
-                temaEscolhido={temaEscolhido}/>
-            ))}
+            <Projetos projetos={projetos} temaEscolhido={temaEscolhido}></Projetos>
         </div>
     </main>
   )
