@@ -12,7 +12,8 @@ import bootstrap from '../img/bootstrap.svg'
 
 // imagens projetos
 import secret_word from '../img/secret-word.png'
-import mountainStore from '../img/mountain-store2.png'
+import mountainStore from '../img/mountain-store.png'
+import miniblog from '../img/miniblog2.png'
 
 import html_2 from '../img/html-2.svg'
 import css_2 from '../img/css-2.svg'
@@ -37,7 +38,9 @@ const Main = ({temaEscolhido}) => {
     ]
     //array de objetos sobre meus projetos
     const projetos = [
-        {id: 1, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar as suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."}
+        {id: 1, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."},
+        {id: 2, img: mountainStore, site: "https://products-ochre-psi.vercel.app/", repositorio: "https://github.com/Adilsonneubaner/mountain-store", titulo: "Mountain Store", descricao: "Projeto em que trabalho com requisições HTTP para simular algumas funcionalidades de um E-commerce."},
+        {id: 3, img: miniblog, site: 'https://vercel.live/link/miniblog-nu.vercel.app/?via=team-dashboard-project-entity&p=1', repositorio: 'https://github.com/Adilsonneubaner/miniblog', titulo: 'MiniBlog', descricao: 'Blog onde o usuário pode ver posts de outras pessoas, além de poder compartilhar os seus próprios, podendo editá-los ou excluí-los mais tarde se desejar.'}
     ]
   return (
     <main>
