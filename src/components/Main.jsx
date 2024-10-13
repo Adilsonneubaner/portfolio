@@ -15,26 +15,19 @@ import secret_word from '../img/secret-word.png'
 import mountainStore from '../img/mountain-store.png'
 import miniblog from '../img/miniblog2.png'
 
-import html_2 from '../img/html-2.svg'
-import css_2 from '../img/css-2.svg'
-import js_2 from '../img/js-2.svg'
-import react_2 from '../img/react-2.svg'
-import git_2 from '../img/git-2.svg'
-import github_2 from '../img/github-2.svg'
-import bootstrap_2 from '../img/bootstrap-2.svg'
 //componentes
 import Habilidades from './Habilidades'
 import Projetos from './Projetos'
 const Main = ({temaEscolhido}) => {
     //array de objetos sobre minhas habilidades
     const habilidades = [
-        {id: "1", tecnologia:"HTML", logo_claro: html, logo_escuro: html_2},
-        {id: "2", tecnologia: "CSS", logo_claro: css, logo_escuro: css_2},
-        {id: "3", tecnologia: "JavaScript", logo_claro: js, logo_escuro: js_2},
-        {id: "4", tecnologia: "React.js", logo_claro: react, logo_escuro: react_2},
-        {id: "7", tecnologia: "Bootstrap", logo_claro: bootstrap, logo_escuro: bootstrap_2},
-        {id: "5", tecnologia: "Git", logo_claro: git, logo_escuro: git_2},
-        {id: "6", tecnologia: "GitHub", logo_claro: github, logo_escuro: github_2}
+        {id: "1", tecnologia:"HTML", logo: html},
+        {id: "2", tecnologia: "CSS", logo: css},
+        {id: "3", tecnologia: "JavaScript", logo: js},
+        {id: "4", tecnologia: "React.js", logo: react},
+        {id: "7", tecnologia: "Bootstrap", logo: bootstrap},
+        {id: "5", tecnologia: "Git", logo: git},
+        {id: "6", tecnologia: "GitHub", logo: github}
     ]
     //array de objetos sobre meus projetos
     const projetos = [
@@ -62,7 +55,7 @@ const Main = ({temaEscolhido}) => {
                     <Habilidades 
                     temaEscolhido={temaEscolhido} 
                     key={habilidade.id} 
-                    tecnologia={habilidade.tecnologia} logo_claro={habilidade.logo_claro} logo_escuro={habilidade.logo_escuro}/>
+                    tecnologia={habilidade.tecnologia} logo={habilidade.logo}/>
                 ))}
             </div>
         </div>

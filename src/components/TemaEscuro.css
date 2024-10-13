@@ -1,11 +1,10 @@
 @charset "UTF-8";
 
 :root{
-    --cor-fundo:#081826;
-    --cor-principal-escuro:#010912;
-    --cor-destaque:#253C59;
-    --cor-titulo:#E4E6EB;
-    --cor-letra:#707070;
+    --cor-fundo:#141414;
+    --cor-principal-escuro:#000000;
+    --cor-destaque:#282828;
+    --cor-letra:#bfbfbf;
 }
 .corpo-escuro{
     background-color: var(--cor-fundo);
@@ -20,40 +19,40 @@
     
 }
 .navbar-toggler-escuro{
-    border: 2px solid var(--cor-titulo);
+    border: 2px solid var(--cor-letra);
 }
 .navbar-toggler-escuro:focus{
     box-shadow: none;
 }
 .toggler-icon-escuro{
     font-size: 1.5em;
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 .link-escuro{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
     display: inline-block;
 }
 .link-escuro:hover{
     transition: .4s;
-    border-bottom: 2px solid var(--cor-titulo);
-    color: var(--cor-titulo);
+    border-bottom: 2px solid var(--cor-letra);
+    color: var(--cor-letra);
 }
 .link-claro:focus{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 .escolher-tema-escuro:checked{
     background-color: var(--cor-fundo);
     border-color: var(--cor-destaque);
 }
 .icones-escuro i{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 /*main*/
 .titulo-escuro{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 .paragrafo-escuro{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 .imagem-escuro{
     background: url(../img/img-2.svg) center center no-repeat;
@@ -63,7 +62,7 @@
     color: var(--cor-letra);
 }
 .sub-titulos-escuro{
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
     font-size: 2.2em;
     text-decoration: underline;
 }
@@ -75,8 +74,8 @@
 }
 .botoes-escuro button{
     background-color: var(--cor-destaque);
-    color: var(--cor-titulo);
-    border: 2px solid var(--cor-titulo);
+    color: var(--cor-letra);
+    border: 2px solid var(--cor-letra);
     font-weight: 500;
     font-size: 1.1em;
     width: 130px;
@@ -86,14 +85,14 @@
     transition: .3s;
 }
 .botoes-escuro button:hover{
-    background-color: #546D8D;
+    background-color: #131313;
     width: 140px;
     padding: 15px;
 }
 /*footer*/
 .footer-escuro{
     background-color: var(--cor-principal-escuro);
-    color: var(--cor-titulo);
+    color: var(--cor-letra);
 }
 .footer-escuro a:hover{
     font-size: 2.4em;

@@ -30,13 +30,11 @@
 #container-projeto:hover .conteudo-projeto{
     opacity: 1;
 }
-
 #botoes{
-    pointer-events: none;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#container-projeto:hover #botoes{
-    pointer-events: auto;
+.swiper-button-prev::after, .swiper-button-next::after{
+    color: rgb(191, 191, 191);
 }
