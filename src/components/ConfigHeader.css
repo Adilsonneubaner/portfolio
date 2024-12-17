@@ -6,7 +6,7 @@ header{
     z-index: 1000;
 }
 #navbar{
-    padding: 30px;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,7 +35,7 @@ header{
     text-decoration: none;
 }
 #cor-tema{
-    margin: 20px;
+    margin: 10px 8px;
     display: flex;
     flex-direction: column;
 }

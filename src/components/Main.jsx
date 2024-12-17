@@ -21,30 +21,30 @@ import Projetos from './Projetos'
 const Main = ({temaEscolhido}) => {
     //array de objetos sobre minhas habilidades
     const habilidades = [
-        {id: "1", tecnologia:"HTML", logo: html},
-        {id: "2", tecnologia: "CSS", logo: css},
-        {id: "3", tecnologia: "JavaScript", logo: js},
-        {id: "4", tecnologia: "React.js", logo: react},
-        {id: "7", tecnologia: "Bootstrap", logo: bootstrap},
-        {id: "5", tecnologia: "Git", logo: git},
-        {id: "6", tecnologia: "GitHub", logo: github}
+        {id: "1", tecnologia: "React.js", logo: react},
+        {id: "2", tecnologia: "JavaScript", logo: js},
+        {id: "3", tecnologia: "Git", logo: git},
+        {id: "4", tecnologia: "Bootstrap", logo: bootstrap},
+        {id: "5", tecnologia:"HTML", logo: html},
+        {id: "6", tecnologia: "CSS", logo: css},
+        {id: "7", tecnologia: "GitHub", logo: github}
     ]
     //array de objetos sobre meus projetos
     const projetos = [
-        {id: 1, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de acertar a palavra, onde o usuário possui 3 tentativas e ao adivinhar suas chances se restauram. Ao zerar suas tentativas o jogo se encerrará e sua pontuação final será exibida."},
+        {id: 1, img: miniblog, site: 'https://miniblog-nu.vercel.app/', repositorio: 'https://github.com/Adilsonneubaner/miniblog', titulo: 'MiniBlog', descricao: 'Blog onde os usuários podem ver posts de outras pessoas, além de poder compartilhar as suas próprias publicações, podendo editá-las ou excluí-las mais tarde se desejar.'},
         {id: 2, img: mountainStore, site: "https://products-ochre-psi.vercel.app/", repositorio: "https://github.com/Adilsonneubaner/mountain-store", titulo: "Mountain Store", descricao: "Projeto em que trabalho com requisições HTTP para simular algumas funcionalidades de um E-commerce."},
-        {id: 3, img: miniblog, site: 'https://miniblog-nu.vercel.app/', repositorio: 'https://github.com/Adilsonneubaner/miniblog', titulo: 'MiniBlog', descricao: 'Blog onde o usuário pode ver posts de outras pessoas, além de poder compartilhar os seus próprios, podendo editá-los ou excluí-los mais tarde se desejar.'}
+        {id: 3, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de adivinhação, onde o jogador possui 3 tentativas. A cada acerto suas tentativas se restauram. Caso as tentativas se esgotem, o jogo termina e a pontuação final é exibida."},
     ]
+
   return (
     <main>
         <div className="container" id='secao-sobre-mim'>
             <h1 id='titulo' className={temaEscolhido === false? "titulo-escuro" : "titulo-claro"}>Olá, seja bem-vindo</h1>
-            {/* <p id='paragrafo' className={temaEscolhido === false? "paragrafo-escuro" : "paragrafo-claro"}>(toque no gatinho para dar um " oi ")</p> */}
         </div>
         <div className="container" id='sobre-mim'>
             <div id='paragrafo-sobre-mim' data-bs-target='#navbar' data-bs-offset='0' className={temaEscolhido === false? "paragrafo-sobre-mim-escuro" : ""}>
-                <p>Me chamo Adilson Neubaner, tenho foco em desenvolvimento front-end. Meu trabalho como desenvolvedor é garantir a experiência a cada usuário individualmente, independente de onde e qual dispositivo ele esteja usando, por isso prezo por um desenvolvimento totalmente responsivo e otimizado, com código organizado para facilitar manutenção.</p>
-                <p>Tenho um pensamento crítico sobre todos os projetos em que trabalho. Com responsabilidade e concentração, busco criar soluções inovadoras e criativas.</p>
+                <p>Me chamo Adilson Neubaner, e tenho foco em desenvolvimento front-end. Meu objetivo como desenvolvedor é proporcionar a melhor experiência ao cada usuário, independentemente de onde e qual dispositivo esteje usando. Por isso prezo por boas práticas de clean code e otimização.</p>
+                <p>Tenho um pensamento crítico e analítico em relação a todos os projetos em que atuo. Com responsabilidade, foco e criatividade, busco desenvolver soluções inovadoras que agreguem valor e atendam às necessidades dos usuários e das equipes envolvidas.</p>
             </div>
             <div id='imagem-sobre-mim' className={temaEscolhido === false? "imagem-escuro" : "imagem-claro"}></div> 
         </div>

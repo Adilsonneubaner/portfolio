@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 main{
-    margin: 100px;
+    margin: 55px;
 }
 #titulo{
     font-weight: bold;
@@ -14,7 +14,7 @@ main{
     width: 100px;
 }
 #sobre-mim{
-    margin-top: 200px;
+    margin-top: 100px;
     display: flex;
     gap: 30px;
 }
@@ -28,7 +28,7 @@ main{
     min-height: 200px;
 }
 .sub-titulos{
-    padding-top: 200px;
+    padding-top: 150px;
     text-align: center;
 }
 #hard-skills{
@@ -71,9 +71,6 @@ main{
     }
 }
 @media screen and (max-width:580px) {
-    main{
-        margin: 50px;
-    }
     #titulo{
         font-size: 1.8em;
     }
