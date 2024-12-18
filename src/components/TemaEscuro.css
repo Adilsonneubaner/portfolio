@@ -12,11 +12,9 @@
 /*header*/
 .navbar-escuro{
     background-color: var(--cor-principal-escuro);
-    
 }
 .perfil-escuro{
     background-image: url(../img/perfil-escuro-50px.jpg);
-    
 }
 .navbar-toggler-escuro{
     border: 2px solid var(--cor-letra);
@@ -60,6 +58,16 @@
 }
 .paragrafo-sobre-mim-escuro p{
     color: var(--cor-letra);
+}
+.button-projetos-escuro{
+    background-color: #000000;
+    color: white;
+    border: 3px solid #000000;
+}
+.button-cv-escuro{
+    background-color: white;
+    color: #000000;
+    border: 3px solid #000000;
 }
 .sub-titulos-escuro{
     color: var(--cor-letra);

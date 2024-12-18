@@ -9,7 +9,7 @@ const Footer = ({temaEscolhido}) => {
         <div>
             <ul id="contato">
               <li>
-                <a href="https://www.linkedin.com/in/adilson-neubaner-b936442b8/" target='_blank'><i className="bi bi-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/adilsonneubaner/" target='_blank'><i className="bi bi-linkedin"></i></a>
               </li>
               <li>
                 <a href="mailto:juniorneubaner@gmail.com" target='_blank'><i className="bi bi-envelope-fill"></i></a>

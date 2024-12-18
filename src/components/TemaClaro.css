@@ -49,6 +49,16 @@
     background: url(../img/img-1.svg) center center no-repeat;
     background-size: contain;
 }
+.button-projetos-claro{
+    background-color: #0c72c4;
+    color: white;
+    border: 3px solid #0c72c4;
+}
+.button-cv-claro{
+    background-color: white;
+    color: #0c72c4;
+    border: 3px solid #0c72c4;
+}
 .sub-titulos-claro{
     color: var(--cor-principal-claro);
     font-size: 2.2em;

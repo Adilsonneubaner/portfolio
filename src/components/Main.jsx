@@ -41,6 +41,7 @@ const Main = ({temaEscolhido}) => {
         <div className="container" id='secao-sobre-mim'>
             <h1 id='titulo' className={temaEscolhido === false? "titulo-escuro" : "titulo-claro"}>Olá, seja bem-vindo</h1>
         </div>
+
         <div className="container" id='sobre-mim'>
             <div id='paragrafo-sobre-mim' data-bs-target='#navbar' data-bs-offset='0' className={temaEscolhido === false? "paragrafo-sobre-mim-escuro" : ""}>
                 <p>Me chamo Adilson Neubaner, e tenho foco em desenvolvimento front-end. Meu objetivo como desenvolvedor é proporcionar a melhor experiência ao cada usuário, independentemente de onde e qual dispositivo esteje usando. Por isso prezo por boas práticas de clean code e otimização.</p>
@@ -48,6 +49,27 @@ const Main = ({temaEscolhido}) => {
             </div>
             <div id='imagem-sobre-mim' className={temaEscolhido === false? "imagem-escuro" : "imagem-claro"}></div> 
         </div>
+
+        <div className="container mt-4">
+            <a href="#secao-projetos" aria-current='page'>
+                <button className={
+                    temaEscolhido === false? 
+                    "button-projetos-escuro projetos-cv me-4" :
+                    "button-projetos-claro projetos-cv me-4"
+                    }>
+                    Ver Projetos
+                </button>
+            </a>
+            
+            <button className={
+                temaEscolhido === false? 
+                "button-cv-escuro projetos-cv" :
+                "button-cv-claro projetos-cv"
+                }>
+                Baixar CV
+            </button>
+        </div>
+
         <div className="container sub-titulos" id='secao-habilidades' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
             <h2 className={temaEscolhido === false? "sub-titulos-escuro" : "sub-titulos-claro"}>Habilidades</h2>
             <div id="hard-skills">
@@ -59,6 +81,7 @@ const Main = ({temaEscolhido}) => {
                 ))}
             </div>
         </div>
+
         <div className="container sub-titulos"id='secao-projetos' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
             <h2 className={temaEscolhido === false? "sub-titulos-escuro" : "sub-titulos-claro"} style={{marginBottom: `100px`}}>Projetos</h2>
             <Projetos projetos={projetos} temaEscolhido={temaEscolhido}></Projetos>

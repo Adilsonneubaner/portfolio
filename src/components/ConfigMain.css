@@ -27,6 +27,11 @@ main{
     width: 50%;
     min-height: 200px;
 }
+.projetos-cv{
+    padding: 8px 13px;
+    border-radius: 7px;
+    font-weight: bold;
+}
 .sub-titulos{
     padding-top: 150px;
     text-align: center;
