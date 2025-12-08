@@ -61,13 +61,13 @@ const Main = ({temaEscolhido}) => {
                 </button>
             </a>
             
-            <button className={
+            {/* <button className={
                 temaEscolhido === false? 
                 "button-cv-escuro projetos-cv" :
                 "button-cv-claro projetos-cv"
                 }>
                 Baixar CV
-            </button>
+            </button> */}
         </div>
 
         <div className="container sub-titulos" id='secao-habilidades' data-bs-spy='scroll' data-bs-target='#navbar' data-bs-offset='0'>
