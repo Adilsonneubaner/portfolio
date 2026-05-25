@@ -8,14 +8,11 @@ const Footer = ({temaEscolhido}) => {
         <p>Entre em contato</p>
         <div>
             <ul id="contato">
-              <li>
+              {/* <li>
                 <a href="https://www.linkedin.com/in/adilsonneubaner/" target='_blank'><i className="bi bi-linkedin"></i></a>
-              </li>
+              </li> */}
               <li>
                 <a href="mailto:juniorneubaner@gmail.com" target='_blank'><i className="bi bi-envelope-fill"></i></a>
-              </li>
-              <li>
-                <a href="https://www.instagram.com/juniorneubaner/" target='_blank'><i className="bi bi-instagram"></i></a>
               </li>
               <li>
                 <a href="https://wa.me/553398214909" target='_blank'><i className="bi bi-whatsapp"></i></a>
