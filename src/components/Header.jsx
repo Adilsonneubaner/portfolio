@@ -16,9 +16,9 @@ const Header = ({handlePegarTema}) => {
   return (
         <header>
             <nav id='navbar' className={tema === false? "navbar-claro navbar navbar-expand-lg" : "navbar-escuro navbar navbar-expand-lg"}>
-                <a href="https://www.linkedin.com/in/adilsonneubaner/" target='_blank'>
+                {/* <a href="https://www.linkedin.com/in/adilsonneubaner/" target='_blank'> */}
                     <div id='perfil' className={tema === false? "perfil-claro" : "perfil-escuro"}></div>
-                </a>
+                {/* </a> */}
                 <button className={tema === false? "navbar-toggler-claro navbar-toggler" : "navbar-toggler-escuro navbar-toggler"} data-bs-toggle='collapse' data-bs-target= '#links-container' aria-controls='links-container' aria-expanded='false' aria-label='Toggle navigation'>
                     <span className={tema === false? "toggler-icon-claro bi bi-list" : "toggler-icon-escuro bi bi-list"}></span>
                 </button>
