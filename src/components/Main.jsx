@@ -14,6 +14,7 @@ import bootstrap from '../img/bootstrap.svg'
 import secret_word from '../img/secret-word.png'
 import mountainStore from '../img/mountain-store.png'
 import miniblog from '../img/miniblog2.png'
+import porta_nasa from '../img/portal-nasa.png'
 
 //componentes
 import Habilidades from './Habilidades'
@@ -31,9 +32,10 @@ const Main = ({temaEscolhido}) => {
     ]
     //array de objetos sobre meus projetos
     const projetos = [
-        {id: 1, img: miniblog, site: 'https://miniblog-nu.vercel.app/', repositorio: 'https://github.com/Adilsonneubaner/miniblog', titulo: 'MiniBlog', descricao: 'Blog onde os usuários podem ver posts de outras pessoas, além de poder compartilhar as suas próprias publicações, podendo editá-las ou excluí-las mais tarde se desejar.'},
-        {id: 2, img: mountainStore, site: "https://products-ochre-psi.vercel.app/", repositorio: "https://github.com/Adilsonneubaner/mountain-store", titulo: "Mountain Store", descricao: "Projeto em que trabalho com requisições HTTP para simular algumas funcionalidades de um E-commerce."},
-        {id: 3, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de adivinhação, onde o jogador possui 3 tentativas. A cada acerto suas tentativas se restauram. Caso as tentativas se esgotem, o jogo termina e a pontuação final é exibida."},
+        {id: 1, img: porta_nasa, site: "https://portal-nasa.vercel.app/", repositorio: "https://github.com/Adilsonneubaner/portal-NASA", titulo: "Portal NASA", descricao: "Projeto onde utilizo APIs oficiais da NASA para transmitir informações e curiosidades para os amantes da astronomia."},
+        {id: 2, img: miniblog, site: 'https://miniblog-nu.vercel.app/', repositorio: 'https://github.com/Adilsonneubaner/miniblog', titulo: 'MiniBlog', descricao: 'Blog onde os usuários podem ver posts de outras pessoas, além de poder compartilhar as suas próprias publicações, podendo editá-las ou excluí-las mais tarde se desejar.'},
+        {id: 3, img: mountainStore, site: "https://products-ochre-psi.vercel.app/", repositorio: "https://github.com/Adilsonneubaner/mountain-store", titulo: "Mountain Store", descricao: "Projeto em que trabalho com requisições HTTP para simular algumas funcionalidades de um E-commerce."},
+        {id: 4, img: secret_word, site: "https://adilsonneubaner.github.io/secret-word/" , repositorio: "https://github.com/Adilsonneubaner/secret-word", titulo: "Secret Word", descricao: "Jogo de adivinhação, onde o jogador possui 3 tentativas. A cada acerto suas tentativas se restauram. Caso as tentativas se esgotem, o jogo termina e a pontuação final é exibida."}
     ]
 
   return (
